@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files: 
   - source: source
-  - destination: /webapps/node
+  - destination: /
 hooks:
   BeforeInstall:
     - location: Scripts/installdeps.sh
